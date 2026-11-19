@@ -2,7 +2,7 @@
 @section('title', 'Login')
 @section('content')
 <div class="panel auth-box">
-    <h2>Login Ambabook</h2>
+    <h2>Login Ambabook - 250441100068</h2>
     <form method="POST" action="{{ route('login.store') }}">
         @csrf
         <div class="form-group"><label>Email</label><input type="email" name="email" value="{{ old('email') }}" required autofocus></div>
